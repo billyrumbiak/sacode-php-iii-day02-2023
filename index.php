@@ -38,7 +38,7 @@
 
     # Tipe Data Array
     $nama = array('Sam', 'Billy');
-    $nama = ['Sam', 'Billy'];
+    // $nama = ['Sam', 'Billy'];
 
     # Tipe Data Null
     $null = null;
@@ -134,8 +134,8 @@
                     </tr>
                     <?php $i =0; foreach($nama as $n):?>
                     <tr>
-                        <td><?php ++$i ?></td>
-                        <td><?php $n?></td>
+                        <td><?= ++$i?></td>
+                        <td><?= $n?></td>
                     </tr>
                     <?php endforeach; ?>
                 </table>

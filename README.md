@@ -8,3 +8,6 @@
     ✅ Array
     ✅ null
     ✅ Object
+
+##
+Kam semua ini sa pu repo day02
